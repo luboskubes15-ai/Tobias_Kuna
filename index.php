@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=vaša pekna sra, initial-scale=1.0">
-    <title>Document</title>
+    <title>Premenne</title>
 </head>
 <body>
     <?php
