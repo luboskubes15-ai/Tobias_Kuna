@@ -27,6 +27,9 @@
     $cislo2 = 2.7;
     $vysledok = (int)$cislo1 + (int)$cislo2;
     echo $vysledok;
+
+    $text = "toto je moj text";
+    echo $text;
     ?>
 </body>
 </html>
