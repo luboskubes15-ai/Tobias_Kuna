@@ -25,11 +25,15 @@
 
     $cislo1 = 4.3;
     $cislo2 = 2.7;
+    //Pretypovanie čísel z premennej
     $vysledok = (int)$cislo1 + (int)$cislo2;
     echo $vysledok;
 
-    $text = "toto je moj text";
-    echo $text;
+    $textCislo = "toto je moj text" . $cislo1;
+    echo $textCislo;
+
+    $pravdivosť = true;
+    echo $pravdivosť;
     ?>
 </body>
 </html>
