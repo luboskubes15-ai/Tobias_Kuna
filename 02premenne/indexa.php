@@ -15,6 +15,10 @@
 
     echo"<p>" . 2 + 4 . "</p>";
     //priradenie hodnoty do premennej
+
+    // Premenna je miesto v pamäti, pod ktorou sa nachádza určitá hodnota
+    // deklaruje sa znakom dolar + nazov premennej
+
     $cislo = 5;
     //vypisanie hodnoty premennej
     echo $cislo;
@@ -29,11 +33,13 @@
     $vysledok = (int)$cislo1 + (int)$cislo2;
     echo $vysledok;
 
-    $textCislo = "toto je moj text" . $cislo1;
+    $textCislo = "toto je moje číslo" . $cislo1;
     echo $textCislo;
 
+    echo "<br>";
     $pravdivosť = true;
     echo $pravdivosť;
     ?>
+    
 </body>
 </html>
